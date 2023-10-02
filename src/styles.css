@@ -1,0 +1,39 @@
+/* App Container */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.completed span {
+  text-decoration: line-through;
+}
+
+.created-time {
+  margin-left: auto;
+}
